@@ -1,0 +1,58 @@
+h1 {
+    color:rgb(19, 1, 4);
+    text-align:center;
+}
+body{
+    background-color:rgb(252, 253, 253);
+}
+p{
+    font-size:larger;
+}
+nav {
+    background-color:palevioletred;
+    margin: 100;
+    padding: 33 px;
+    float:left;
+}
+
+nav a:hover{
+    background-color:darkseagreen;
+}
+a{
+    color:rosybrown;
+}
+img{
+    width: 415px;
+    height: 415px;
+    display: block;
+    margin: auto;
+}
+body{
+    background-image: url("images/uj.webp");
+    background-size: cover;
+}
+video{
+    display: block;
+    margin: auto;
+}
+.conclusion-container {
+    display: flex;         /* This aligns children horizontally */
+    align-items: center;   /* Centers the image and text vertically */
+    gap: 40px;             /* Adds space between the text and the image */
+    padding: 20px;
+}
+
+.conclusion-text {
+    flex: 2;               /* The text takes up twice as much space as the image */
+}
+
+.conclusion-image {
+    flex: 1;               /* The image takes up one part of the space */
+}
+
+.conclusion-image img {
+    max-width: 100%;       /* Prevents the image from being too big */
+    height: auto;
+    display: block;
+    border-radius: 10px;   /* Optional: adds nice rounded corners */
+}

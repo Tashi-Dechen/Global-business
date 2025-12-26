@@ -1,0 +1,35 @@
+h1 {
+    color:rgb(22, 17, 18);
+    text-align:left;
+}
+body{
+    background-color:lightblue;
+}
+p{
+    font-size:larger;
+}
+nav {
+    background-color:palevioletred;
+    margin: 100;
+    padding: 33 px;
+    float: left;
+}
+
+nav a:hover{
+    background-color:darkseagreen;
+}
+a{
+    color:rosybrown;
+}
+img{
+    width: 415px;
+    height: 415px
+}
+body{
+    background-image: url("images/hydro.jpg");
+    background-size: cover;
+}
+video{
+    display: block;
+    margin: auto;
+}
